@@ -1,0 +1,133 @@
+{
+  "lang": "nb-NO",
+  "ui": {
+    "title": "Hvor er dyret?",
+    "nameLabel": "For voksne · barnets navn:",
+    "namePlaceholder": "valgfritt",
+    "hold": "hold inne",
+    "home": "Hjem",
+    "repeat": "Si det igjen",
+    "again": "Spill igjen",
+    "end": "Slutt"
+  },
+  "praise": ["Hurra!", "Bra jobba!", "Så flink du er!", "Jippi!", "Du fant den!"],
+  "end": ["Du fant alle sammen!", "Snipp, snapp, snute, så er eventyret ute."],
+  "scenes": [
+    {
+      "id": "farm", "title": "Gården", "icon": "🐄", "color": "#d8f0b8",
+      "intro": "Nå skal vi til gården!",
+      "decor": [
+        { "e": "☀️", "x": 88, "y": 12, "s": 12 }, { "e": "☁️", "x": 22, "y": 14, "s": 12 }, { "e": "☁️", "x": 58, "y": 10, "s": 8 },
+        { "e": "🏡", "x": 14, "y": 40, "s": 22 }, { "e": "🌳", "x": 84, "y": 38, "s": 20 },
+        { "e": "🌾", "x": 62, "y": 82, "s": 13, "front": true }, { "e": "🌾", "x": 68, "y": 84, "s": 11, "front": true },
+        { "e": "🌻", "x": 6, "y": 66, "s": 9 }, { "e": "🌻", "x": 94, "y": 76, "s": 9 }
+      ],
+      "animals": [
+        { "id": "ku", "e": "🐄", "the": "kua", "line": "Kua sier mø!", "x": 32, "y": 58, "s": 17,
+          "sound": { "files": ["Single Cow Moo.ogg"], "max": 3 } },
+        { "id": "hest", "e": "🐎", "the": "hesten", "line": "Hesten sier ihahaha!", "x": 60, "y": 50, "s": 15, "f": true,
+          "sound": { "files": ["Wiehern.ogg"], "max": 2.5 } },
+        { "id": "gris", "e": "🐖", "the": "grisen", "line": "Grisen sier nøff nøff!", "x": 84, "y": 62, "s": 14,
+          "sound": { "files": ["Mudchute pig 1.ogg", "Mudchute pig 2.ogg", "Mudchute pig 3.ogg"], "max": 3 } },
+        { "id": "sau", "e": "🐑", "the": "sauen", "line": "Sauen sier mæ!", "x": 44, "y": 76, "s": 14,
+          "sound": { "files": ["Mudchute sheep 1.ogg"], "max": 2 } },
+        { "id": "hane", "e": "🐓", "the": "hanen", "line": "Hanen sier kykeliky!", "x": 65, "y": 75, "s": 12,
+          "sound": { "files": ["Rooster crowing.ogg"], "max": 3 } },
+        { "id": "and", "e": "🦆", "the": "anda", "line": "Anda sier rapp rapp!", "x": 18, "y": 82, "s": 11, "f": true,
+          "sound": { "files": ["Anas platyrhynchos - Mallard - XC62258.ogg"], "max": 2.5 } }
+      ]
+    },
+    {
+      "id": "forest", "title": "Skogen", "icon": "🦉", "color": "#bfe3cf",
+      "intro": "Nå skal vi til skogen!",
+      "decor": [
+        { "e": "🌲", "x": 12, "y": 38, "s": 26 }, { "e": "🌲", "x": 90, "y": 40, "s": 24 }, { "e": "🌳", "x": 50, "y": 34, "s": 26 },
+        { "e": "☁️", "x": 30, "y": 12, "s": 10 },
+        { "e": "🌿", "x": 22, "y": 78, "s": 16, "front": true },
+        { "e": "🍄", "x": 38, "y": 88, "s": 8 }, { "e": "🍄", "x": 72, "y": 64, "s": 6 }, { "e": "🪵", "x": 80, "y": 84, "s": 12 }
+      ],
+      "animals": [
+        { "id": "ugle", "e": "🦉", "the": "ugla", "line": "Ugla sier uhu!", "x": 54, "y": 24, "s": 10,
+          "sound": { "files": ["Strix aluco male.oga"], "max": 3 } },
+        { "id": "rev", "e": "🦊", "the": "reven", "line": "Reven roper i skogen!", "x": 20, "y": 70, "s": 12,
+          "sound": { "files": ["Red Fox (Vulpes vulpes) (W1CDR0001529 BD12).ogg"], "max": 2.5 } },
+        { "id": "frosk", "e": "🐸", "the": "frosken", "line": "Frosken sier kvekk kvekk!", "x": 56, "y": 84, "s": 11,
+          "sound": { "files": ["Single Frog Croak.oga"], "max": 2.5 } },
+        { "id": "gjok", "e": "🐦", "the": "gjøken", "line": "Gjøken sier ko-ko!", "x": 88, "y": 30, "s": 8,
+          "sound": { "files": ["Cuculus canorus - Common Cuckoo XC542432.mp3"], "max": 3 } }
+      ]
+    },
+    {
+      "id": "home", "title": "Hjemme", "icon": "🐈", "color": "#fbdcc4",
+      "intro": "Nå er vi hjemme!",
+      "decor": [
+        { "e": "🪟", "x": 80, "y": 26, "s": 20 }, { "e": "🖼️", "x": 24, "y": 24, "s": 12 },
+        { "e": "🛋️", "x": 34, "y": 60, "s": 28 }, { "e": "🪴", "x": 92, "y": 62, "s": 15 },
+        { "e": "🧸", "x": 50, "y": 84, "s": 9 }, { "e": "🧺", "x": 14, "y": 86, "s": 13 }
+      ],
+      "animals": [
+        { "id": "katt", "e": "🐈", "the": "katten", "line": "Katten sier mjau!", "x": 38, "y": 50, "s": 12,
+          "sound": { "files": ["Meow of a Siamese cat - freemaster2.wav"], "max": 2 } },
+        { "id": "hund", "e": "🐕", "the": "hunden", "line": "Hunden sier voff voff!", "x": 72, "y": 72, "s": 15, "f": true,
+          "sound": { "files": ["Barking of a dog.ogg"], "max": 2.5 } },
+        { "id": "fugl", "e": "🐦", "the": "fuglen", "line": "Fuglen sier pip pip!", "x": 82, "y": 30, "s": 8,
+          "sound": { "files": ["Budgerigar chirping.ogg"], "max": 2.5 } }
+      ]
+    },
+    {
+      "id": "jungle", "title": "Jungelen", "icon": "🦁", "color": "#f6e7a8",
+      "intro": "Nå skal vi til jungelen!",
+      "decor": [
+        { "e": "🌴", "x": 14, "y": 40, "s": 26 }, { "e": "🌴", "x": 86, "y": 38, "s": 28 },
+        { "e": "🌿", "x": 72, "y": 80, "s": 15, "front": true }, { "e": "🌺", "x": 8, "y": 84, "s": 9 },
+        { "e": "🌺", "x": 46, "y": 88, "s": 7 }, { "e": "🍌", "x": 92, "y": 70, "s": 8 }
+      ],
+      "animals": [
+        { "id": "love", "e": "🦁", "the": "løven", "line": "Løven brøler!", "x": 32, "y": 64, "s": 17,
+          "sound": { "files": ["Lion raring-sound1TamilNadu178.ogg"], "max": 3 } },
+        { "id": "elefant", "e": "🐘", "the": "elefanten", "line": "Elefanten sier tøøt!", "x": 68, "y": 62, "s": 20,
+          "sound": { "files": ["Elephant voice - trumpeting.ogg"], "max": 2.5 } },
+        { "id": "ape", "e": "🐒", "the": "apen", "line": "Apen sier o-o-a-a!", "x": 84, "y": 26, "s": 11,
+          "sound": { "files": ["Monkey in Antefasy.wav"], "max": 2.5 } },
+        { "id": "papegoye", "e": "🦜", "the": "papegøyen", "line": "Papegøyen skriker!", "x": 18, "y": 28, "s": 10,
+          "sound": { "files": ["Scarlet macaw 01.wav"], "max": 2.5 } }
+      ]
+    },
+    {
+      "id": "sea", "title": "Havet", "icon": "🐋", "color": "#bfe4f4",
+      "intro": "Nå skal vi til havet!",
+      "decor": [
+        { "e": "☀️", "x": 12, "y": 12, "s": 11 }, { "e": "⛵", "x": 62, "y": 32, "s": 11 }, { "e": "🏝️", "x": 88, "y": 31, "s": 16 },
+        { "e": "🌊", "x": 76, "y": 60, "s": 13, "front": true }, { "e": "🌊", "x": 22, "y": 58, "s": 9 },
+        { "e": "🐚", "x": 60, "y": 88, "s": 7 }, { "e": "🪸", "x": 88, "y": 86, "s": 11 }
+      ],
+      "animals": [
+        { "id": "hval", "e": "🐋", "the": "hvalen", "line": "Hvalen synger!", "x": 40, "y": 52, "s": 20,
+          "sound": { "files": ["Humpback whale moo.ogg"], "max": 3.5 } },
+        { "id": "delfin", "e": "🐬", "the": "delfinen", "line": "Delfinen piper!", "x": 76, "y": 52, "s": 13,
+          "sound": { "files": ["161691 felixblume dolphin-screaming-underwater-in-caribbean-sea-mexico.wav"], "max": 2.5 } },
+        { "id": "pingvin", "e": "🐧", "the": "pingvinen", "line": "Pingvinen roper!", "x": 24, "y": 82, "s": 12,
+          "sound": { "files": ["Little Penguin (Eudyptula minor).ogg"], "max": 3 } }
+      ]
+    },
+    {
+      "id": "mountain", "title": "Fjellet", "icon": "🐐", "color": "#dfe3f5",
+      "intro": "Nå skal vi til fjellet!",
+      "decor": [
+        { "e": "🏔️", "x": 30, "y": 40, "s": 34 }, { "e": "⛰️", "x": 78, "y": 44, "s": 26 }, { "e": "☁️", "x": 56, "y": 14, "s": 10 },
+        { "e": "🌲", "x": 92, "y": 68, "s": 15 }, { "e": "🪨", "x": 58, "y": 84, "s": 13, "front": true },
+        { "e": "🌼", "x": 8, "y": 86, "s": 7 }, { "e": "🌼", "x": 36, "y": 90, "s": 6 }
+      ],
+      "animals": [
+        { "id": "orn", "e": "🦅", "the": "ørnen", "line": "Ørnen skriker!", "x": 72, "y": 18, "s": 12,
+          "sound": { "files": ["Golden eagle.ogg"], "max": 2.5 } },
+        { "id": "geit", "e": "🐐", "the": "geita", "line": "Geita sier mæ-æ-æ!", "x": 22, "y": 66, "s": 14,
+          "sound": { "files": ["Herd of goats bleating.ogg"], "max": 2.5 } },
+        { "id": "ulv", "e": "🐺", "the": "ulven", "line": "Ulven uler! Auuu!", "x": 80, "y": 70, "s": 14,
+          "sound": { "files": ["Wolf howls.ogg"], "max": 4 } },
+        { "id": "bjorn", "e": "🐻", "the": "bjørnen", "line": "Bjørnen brummer!", "x": 55, "y": 76, "s": 14,
+          "sound": { "files": ["Bear growl.ogg"], "max": 3 } }
+      ]
+    }
+  ]
+}

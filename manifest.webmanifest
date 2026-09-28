@@ -1,0 +1,14 @@
+{
+  "name": "Hvor er dyret?",
+  "short_name": "Dyrene",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#cfeefc",
+  "theme_color": "#cfeefc",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
