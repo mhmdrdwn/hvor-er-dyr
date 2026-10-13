@@ -14,7 +14,7 @@ A tap-to-find game in Norwegian (Bokmål) for 2–3-year-olds. The narrator asks
 ## Run it
 
 ```sh
-cd ~/Desktop/games_farida
+cd ~/Desktop/hvor-er-dyr
 python3 -m http.server 8000
 ```
 
@@ -26,7 +26,7 @@ On an iPad or phone on the same Wi-Fi, open `http://<Mac IP>:8000`, where `ipcon
 
 - **No wrong answers.** Tapping a different animal plays its sound and says "Det er grisen!", then asks the question again.
 - **Hints.** After 8 seconds the right animal wiggles and glows. After 16 seconds the question is asked again.
-- **Grown-up controls.** 🏠 has to be held for about a second. 🔊 repeats the question. The optional name field makes the narrator add the child's name, for example "Hurra! Farida!". The name uses the device's own Norwegian voice (iPhone, iPad and Mac have one built in), and it's skipped on devices without one.
+- **Grown-up controls.** 🏠 has to be held for about a second. 🔊 repeats the question. The optional name field makes the narrator add the child's name, for example "Hurra!". The name uses the device's own Norwegian voice (iPhone, iPad and Mac have one built in), and it's skipped on devices without one.
 
 ## Changing content
 
@@ -44,13 +44,4 @@ The script:
 
 After changing files, bump `VERSION` in `sw.js` so installed copies update.
 
-## Licenses
 
-The animal recordings are public domain, CC0, CC BY or CC BY-SA. Keep **CREDITS.md** with the app, and show those credits somewhere in a published version, for example on an "About" page for parents.
-
-## Next steps toward the app stores
-
-- Record the narration with a real person's voice by replacing the files in `voice/` (same file names).
-- Use drawn artwork instead of emoji, so it looks the same on Android and iOS.
-- Wrap it with Capacitor to make iOS and Android apps (needs Node.js).
-# farida-games
